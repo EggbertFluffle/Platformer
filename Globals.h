@@ -1,0 +1,11 @@
+#pragma once
+
+#include <raylib.h>
+
+const int WIDTH = 1200;
+const int HEIGHT = 800;
+
+const float GRAVITY = 3000;
+
+const int DEFAULT_BINDS[] = {KEY_W, KEY_S, KEY_A, KEY_D, KEY_LEFT_SHIFT, KEY_LEFT_CONTROL, KEY_SPACE, KEY_E, KEY_F, KEY_J, KEY_K};
+const int SECONDARY_BINDS[] = {KEY_UP, KEY_DOWN, KEY_LEFT, KEY_RIGHT, KEY_RIGHT_CONTROL, KEY_LEFT_CONTROL, KEY_ENTER, KEY_E, KEY_F, KEY_J, KEY_K};
